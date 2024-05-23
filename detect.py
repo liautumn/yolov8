@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model = YOLO(f"http://localhost:8000/yolov8n", task="detect")
 
 # Run inference on the server
-results = model(r"D:\autumn\Desktop\img")
+results = model(r"C:\Users\autumn\Desktop\yolo\coco128\images\train2017")
